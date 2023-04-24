@@ -49,7 +49,7 @@ export default function ProductCard({
                 {discountedPrice}
               </span>
             </div>
-            <button className="font-montserrat bg-dark-cyan text-white font-medium rounded-lg py-3 flex items-center justify-center gap-4 hover:bg-hover-color transition-colors">
+            <button className="font-montserrat bg-dark-cyan text-white font-bold rounded-lg py-3 flex items-center justify-center gap-4 hover:bg-hover-color transition-colors">
               <img src={CartIcon} alt="Icon cart" />
               Add to Cart
             </button>
